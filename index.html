@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <title>Emma's Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>Emma Nguyen</h1>
+        <img src="emma.png" alt="Emma's Image" class="profile-image">
+    </header>
+
+    <section class="content-section">
+        <h2>About Me</h2>
+        <p>
+            Hi, my name is Emma Nguyen, a Computer Science graduate from the University of Houston Downtown, who genuinely enjoys turning ideas into things that actually work.
+        </p>
+        <p>
+            I have always been curious about how technology solves problems, which led me to explore areas like theory of computation, operating systems, databases, and programming in C++, Python, JavaScript, and Java. I learn best by building, so many of my projects are hands-on across web, software, and hardware development.
+        </p>
+        <p>
+            I have built a responsive shopping app using HTML, CSS, and JavaScript that allows users to browse products and complete purchases with ease. I also created an interactive game using Unity and C#, focusing on smooth controls and engaging gameplay. On the hardware side, I designed an automatic pet feeder using Arduino and C, combining sensors and timers to make pet care more convenient.
+        </p>
+        <p>
+            I enjoy challenges because they push me to think, learn, and improve. I am detail-oriented, hardworking, and always curious about new technologies. I am excited to apply my skills, continue growing, and contribute to meaningful projects that create practical and helpful solutions.
+        </p>
+	    Feel free to explore more about me through the link below!
+        </p>
+        <p>
+            <a href="https://www.linkedin.com/in/emma-nguyen-84245929a/">Connect with me on LinkedIn</a>
+        </p>
+
+    </section>
+    
+    
+    <section class="content-section">
+        <h2>My Education</h2>
+        <ul class="education-list">
+            <li>B.S. in Computer Science</li>
+            <li>University of Houston Downtown - December 2025</li>
+            <li>GPA: 3.9 / 4.0</li>
+	    <li>Relevant Coursework: Statistical Analysis, Software Engineering, Operating and Database Systems, Robotics, Internet of Things, Game Development, Programming Language Concepts, Natural Language Processing, Machine Learning</li>
+        </ul>
+    </section>
+
+
+
+    <section class="content-section">
+        <h2>My Projects</h2>
+        <ul class="experience-list">
+            <li>Web Programming
+		<br>
+		<img src="webprogramming.png" alt="Webprogramming's Image" class="webprogramming-image">
+<br>
+		<img src="shoppingapp.png" alt="Shoppingapp's Image" class="shoppingapp-image">
+<br>
+		<img src="shoppingapp2.png" alt="Shoppingapp2's Image" class="shoppingapp2-image">
+	    </li>
+<br>
+<br>
+
+            <li>Database Management
+		<br>
+		<img src="databasemanagement.png" alt="Databasemanagement's Image" class="databasemanagement-image">
+	    </li>
+<br>
+<br>
+
+	    <li>Game App
+		<br>
+		<img src="gamedev.png" alt="Game App's Image" class="gamedev-image">
+	    </li>
+<br>
+<br>
+
+	    <li>Automatic Pet Feeder
+		<br>
+		<img src="autopetfeeder.png" alt="Autopetfeeder's Image" class="autopetfeeder-image">
+	    </li>
+        </ul>
+    </section>
+    
+    <section class="content-section">
+    <h3>Contact Me</h3>
+
+    <ul class="contact-list">
+        <li>Phone: 346-280-1385</li>
+        <li>Email: emmahnguyen90@gmail.com</li>
+    </ul>
+
+<br>
+
+    <p>Please enter your name, email, and question below so I can contact you.</p>
+
+    <form id="contactForm" method="post" action="#" autocomplete="on">
+
+
+        <p>
+            <label for="firstName">First Name:</label><br>
+            <input type="text" id="firstName" name="firstName"
+                   placeholder="First name" required>
+        </p>
+
+        <p>
+            <label for="lastName">Last Name:</label><br>
+            <input type="text" id="lastName" name="lastName"
+                   placeholder="Last name" required>
+        </p>
+
+        <p>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"
+                   placeholder="name@domain.com" required>
+        </p>
+
+        <p>
+            <label for="question">Question about Programming:</label><br>
+            <textarea id="question" name="question"
+                      placeholder="Type your question here..."
+                      rows="4" required></textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Clear">
+        </p>
+
+<div id="successMessage" class="success-message">
+    Your message has been submitted successfully!
+</div>
+
+    </form>
+</section>
+
+</body>
+</html>
