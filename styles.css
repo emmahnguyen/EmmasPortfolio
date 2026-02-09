@@ -1,0 +1,232 @@
+/* Global styles */
+body {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+  line-height: 1.6;
+}
+
+/* Header styling */
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin: 0;
+  color: #fff;
+}
+
+.profile-image {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Section styling */
+.content-section {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.content-section h2, .content-section h3 {
+  font-size: 1.8em;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Paragraph fade effect */
+.fade-paragraph {
+  opacity: 0;
+  transition: opacity 1.5s ease-in-out, transform 1s ease;
+  transform: translateY(10px);
+}
+
+.fade-paragraph.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+/* Education list styling */
+.education-list {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+.education-list li {
+  font-size: 1.2em;
+  margin: 5px 0;
+  color: #555;
+}
+
+
+
+/* Experience list styling */
+.experience-list {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+.experience-list li {
+  font-size: 1.2em;
+  margin: 5px 0;
+  color: #555;
+}
+
+.webprogramming-image {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.shoppingapp-image {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.shoppingapp2-image {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.databasemanagement-image {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gamedev-image {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.autopetfeeder-image {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Contact Section Styling */
+.contact-list {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-list li {
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+form p {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 97%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+}
+
+input[type="reset"] {
+    background-color: #6c757d;
+    color: white;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+input[type="reset"]:hover {
+    background-color: #545b62;
+}
+
+/* Success message */
+.success-message {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #d4edda;
+    color: #155724;
+    display: none;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Link styling */
+a {
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
