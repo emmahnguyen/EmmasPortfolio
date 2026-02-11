@@ -89,6 +89,15 @@ header h1 {
   color: #555;
 }
 
+.QRcode_EmmasResume-image {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 .webprogramming-image {
   width: 100%;
   max-width: 600px;
