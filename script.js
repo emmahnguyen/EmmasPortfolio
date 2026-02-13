@@ -31,7 +31,12 @@ document.addEventListener("DOMContentLoaded", function () {
         const pattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
         return pattern.test(email);
     }
-});
+    });
 
+    new QRCode(document.getElementById("qrcode"), {
+      text: "https://docs.google.com/document/d/1Yi4__7CMPQrnVKX7jUA_2c1CKXECU9Ah/edit?usp=sharing&ouid=104741894569472158994&rtpof=true&sd=true",
+      width: 150,
+      height: 150
+    });
 
 
